@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0
+}
+body{
+	width: 70%;
+	margin: 150px auto;
+	background: url('img/maxresdef.jpg') repeat-y;
+	font-family: 'Verdana';
+}
+.content{
+	display: block;
+	padding: 50px;
+	background-color:rgba(193,204,239,.8);
+	border-radius: 13px;
+	overflow: auto;
+}
+h2{
+	padding-bottom: 30px;
+	text-indent: 60px;
+	color: #09164f;
+	font-size: 2.3em;
+    border-bottom: 2px solid #09164f; /* Параметры линии под текстом */
+    font-weight: bold;
+}
+h3{
+	padding: 45px 0;
+	text-indent: 40px;
+	font-size: 1.3em;
+	color: #1f75fe;
+
+}
+p {
+	text-indent: 20px; /* Отступ первой строки в пикселах */
+	font-family: 'Roboto';
+	font-size: 1.1em;
+	padding: 5px 80px;
+}
+figure{
+	
+}
+img{
+	/*width: 100%;*/
+	margin: 20px auto;
+	display: block;
+	border-radius: 10px;
+    filter: drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+	-webkit-filter: drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+   	filter: brightness(.7) contrast(2.5) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+    -webkit-filter: brightness(.7) contrast(2.5) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+}
+#crop001 img {
+    padding: -700px 0 0 1000px;
+}
+img:hover{
+    filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+        -webkit-filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+    /*transition: all 0.6s ease 0s;*/
+/*        filter: invert(100%);
+        -webkit-filter: invert(100%);*/
+
+    
+}
+figcaption {
+	width: 50%;
+	display: block;
+	background-color: rgba(153,50,204,.3);
+	border-radius: 20px;
+	padding: 8px;
+	margin: 7px auto;
+}
+
+
