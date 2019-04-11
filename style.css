@@ -5,7 +5,7 @@
 body{
 	width: 70%;
 	margin: 150px auto;
-	background: url('img/maxresdef.jpg') repeat-y;
+	background: url('img/maxresdef.jpg') repeat-y fixed;
 	font-family: 'Verdana';
 }
 .content{
@@ -24,23 +24,68 @@ h2{
     font-weight: bold;
 }
 h3{
-	padding: 45px 0;
+	padding: 40px 0;
 	text-indent: 40px;
 	font-size: 1.3em;
 	color: #1f75fe;
-
+}
+h3:before{
+	background-color:#1f75fe;
+	width:18px;
+	height:18px;
+	content:"";
+	float:left;
+	margin:6px 6px 0 0;
+	overflow:hidden;
+}
+h4{
+	padding: 20px 65px;
+	text-indent: 40px;
+	font-size: 1.3em;
+	color: #8533ff;
+}
+h4:before{
+	background-color:#8533ff;
+	width:18px;
+	height:18px;
+	content:"";
+	float:left;
+	margin:6px 6px 0 19px;
+	overflow:hidden;
+}
+h4{
+	background: url(./img/1.png) 0px 9px no-repeat;
+}
+h1,h2,h3,h4{
+	font-family: 'Open Sans', sans-serif;
 }
 p {
 	text-indent: 20px; /* Отступ первой строки в пикселах */
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.1em;
 	padding: 5px 80px;
 }
+#def001{
+	border: 2px dashed red;
+	border-radius: 25px;
+	padding: 25px;
+	margin: 30px 0;
+	background-color: rgba(255,143,162,.5);
+	font-weight: bold;
+}
+#titdef001{
+	border: 2px dotted rgba(189,0,120,.9);
+	border-radius: 15px;
+	padding: 0 10px;
+	background-color: rgba(255,143,162,.4);
+	font-weight: bold;
+}
+.dec:hover{
+	font-weight: bolder;
+}
 figure{
-	
 }
 img{
-	/*width: 100%;*/
 	margin: 20px auto;
 	display: block;
 	border-radius: 10px;
@@ -55,19 +100,28 @@ img{
 img:hover{
     filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
         -webkit-filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
-    /*transition: all 0.6s ease 0s;*/
-/*        filter: invert(100%);
-        -webkit-filter: invert(100%);*/
-
-    
 }
+
 figcaption {
-	width: 50%;
+	width: 65%;
 	display: block;
 	background-color: rgba(153,50,204,.3);
 	border-radius: 20px;
 	padding: 8px;
 	margin: 7px auto;
 }
-
+.theory{
+	border: 3px solid #1f75fe;
+	border-bottom: 10px solid #8533ff;
+	padding: 35px;
+	border-radius: 50px 50px 0 0 ;
+	margin-top: 50px
+}
+.tasks{
+	border: 3px solid #8533ff;
+	border-top: 10px solid #1f75fe;
+	padding: 35px;
+	border-radius: 0 0 50px 50px;
+	margin-top: 0;	
+}
 
