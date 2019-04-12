@@ -121,22 +121,33 @@ figcaption {
 }
 .theory{
 	border: 3px solid #1f75fe;
-	border-bottom: 10px solid #8533ff;
+	/*border-bottom: 10px solid #8533ff;*/
 	padding: 35px;
-	border-radius: 50px 50px 0 0 ;
+	border-radius: 50px;
 	margin-top: 50px
 }
 .tasks{
 	border: 3px solid #8533ff;
-	border-top: 10px solid #1f75fe;
+	/*border-top: 10px solid #1f75fe;*/
 	padding: 35px;
-	border-radius: 0 0 50px 50px;
-	margin-top: 0;	
+	border-radius: 50px;
+	margin-top: 50px;	
 }
 
-.breadcrumbs{
+.breadcrumbs {
 	margin:15px 0;
 	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color:rgb(47, 79, 79);
+	background: rgba(0, 128, 128,.5);
+	padding:10px 8px;
+	border-radius: 5px
+}
+.breadcrumbs a:hover{
+	color:#F08080;
+}
+.breadcrumbs a:visited{
+	color:rgb(47, 79, 79);
 }
 .toc{
 	padding: 0 0;
@@ -146,9 +157,11 @@ h1:nth-child(1){
 }
 
 .toc h2{
-	font-size: 1.3em;
+	font-weight: bold;
+	font-size: 1.1em;
 	margin: 10px 0;
 }
+
 .toc a{
 	text-decoration: none;
 	color: #2B6CC4;
@@ -166,3 +179,22 @@ h1:nth-child(1){
 	color: #8B0000;
 	text-decoration: none;
 } */
+/*
+.dva a{
+  position: relative;
+}
+.dva a:after {
+  content: "";
+  position: absolute; top: 0; left: -2em;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, rgba(193,204,239,.3), rgba(193,204,239,.8), rgba(193,204,239,.3)) no-repeat -2em 0%;
+  background-size: 2em 100%;
+  transform: skewX(-50deg);
+}
+.dva a:hover:after {
+  transition: .5s linear;
+  background-position: 100% 0%;
+}
+
+*/

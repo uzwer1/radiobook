@@ -1,0 +1,45 @@
+/* CSS - Каскадные Таблицы Стилей */
+/* Адрес цветовой схемы: https://colorscheme.ru/#4u32Pw0w0w0w0 */
+
+
+/* HEX коды */
+
+.primary-0 { color: #540ead }		/* Основной Цвет */
+.primary-1 { color: #502982 }
+.primary-2 { color: #340570 }
+.primary-3 { color: #8443d6 }
+.primary-4 { color: #9a6ad6 }
+
+.secondary-a-0 { color: #00ae68 }	/* Вторичный Цвет A */
+.secondary-a-1 { color: #21825b }
+.secondary-a-2 { color: #007143 }
+.secondary-a-3 { color: #36d696 }
+.secondary-a-4 { color: #60d6a7 }
+
+.secondary-b-0 { color: #ff4c00 }	/* Вторичный Цвет B */
+.secondary-b-1 { color: #bf5b30 }
+.secondary-b-2 { color: #a63100 }
+.secondary-b-3 { color: #ff7940 }
+.secondary-b-4 { color: #ff9d73 }
+
+
+/* RGBA коды */
+
+.primary-0 { color: rgba( 84,  14, 173, 1) }		/* Основной Цвет */
+.primary-1 { color: rgba( 80,  41, 130, 1) }
+.primary-2 { color: rgba( 52,   5, 112, 1) }
+.primary-3 { color: rgba(132,  67, 214, 1) }
+.primary-4 { color: rgba(154, 106, 214, 1) }
+
+.secondary-a-0 { color: rgba(  0, 174, 104, 1) }	/* Вторичный Цвет A */
+.secondary-a-1 { color: rgba( 33, 130,  91, 1) }
+.secondary-a-2 { color: rgba(  0, 113,  67, 1) }
+.secondary-a-3 { color: rgba( 54, 214, 150, 1) }
+.secondary-a-4 { color: rgba( 96, 214, 167, 1) }
+
+.secondary-b-0 { color: rgba(255,  76,   0, 1) }	/* Вторичный Цвет B */
+.secondary-b-1 { color: rgba(191,  91,  48, 1) }
+.secondary-b-2 { color: rgba(166,  49,   0, 1) }
+.secondary-b-3 { color: rgba(255, 121,  64, 1) }
+.secondary-b-4 { color: rgba(255, 157, 115, 1) }
+
