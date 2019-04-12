@@ -18,9 +18,9 @@ body{
 h1, h2{
 	color: #082567;
 }
-h2{
+h2, h2 a{
 	text-indent: 60px;
-	font-size: 2.3em;
+	font-size: 1.3em;
     font-weight: bold;
 }
 h3, h3 a{
