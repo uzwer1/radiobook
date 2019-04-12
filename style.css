@@ -15,12 +15,12 @@ body{
 	border-radius: 13px;
 	overflow: auto;
 }
+h1, h2{
+	color: #082567;
+}
 h2{
-	padding-bottom: 30px;
 	text-indent: 60px;
-	color: #09164f;
 	font-size: 2.3em;
-    border-bottom: 2px solid #09164f; /* Параметры линии под текстом */
     font-weight: bold;
 }
 h3{
@@ -57,6 +57,7 @@ h4{
 	background: url(./img/1.png) 0px 9px no-repeat;
 }
 h1,h2,h3,h4{
+	/*color:#082567;*/
 	font-family: 'Open Sans', sans-serif;
 }
 p {
@@ -89,7 +90,9 @@ img{
 	margin: 20px auto;
 	display: block;
 	border-radius: 10px;
-    filter: drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
+}
+figure img{
+	filter: drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
 	-webkit-filter: drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
    	filter: brightness(.7) contrast(2.5) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
     -webkit-filter: brightness(.7) contrast(2.5) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
@@ -97,11 +100,17 @@ img{
 #crop001 img {
     padding: -700px 0 0 1000px;
 }
-img:hover{
+figure img:hover{
     filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
         -webkit-filter: hue-rotate(270deg) drop-shadow(16px 13px 10px rgba(0, 0, 0, 0.4));
 }
+#poster01{
+	position: absolute;
+	width:350px;
+	top: 60px;
+	left: 810px;
 
+}
 figcaption {
 	width: 65%;
 	display: block;
@@ -125,3 +134,35 @@ figcaption {
 	margin-top: 0;	
 }
 
+.breadcrumbs{
+	margin:15px 0;
+	font-family: 'Roboto', sans-serif;
+}
+.toc{
+	padding: 0 0;
+}
+h1:nth-child(1){
+	margin: 41px 0;
+}
+
+.toc h2{
+	font-size: 1.3em;
+	margin: 10px 0;
+}
+.toc a{
+	text-decoration: none;
+	color: #2B6CC4;
+}
+.toc a:link {
+}
+/*.toc a:active {
+	color: #ff00ff;
+}*/
+.toc a:hover {
+	color:#120A8F;
+	text-decoration: underline;
+}
+/*.toc a:visited {
+	color: #8B0000;
+	text-decoration: none;
+} */
