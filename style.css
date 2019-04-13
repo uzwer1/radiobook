@@ -3,19 +3,20 @@
 	margin: 0
 }
 body{
-	width: 90%;
+	width: 95%;
 	margin: 10% auto;
 	background: url('img/maxresdef.jpg') repeat-y fixed;
 	font-family: 'Verdana';
 }
 .content{
 	display: block;
-	padding: 50px 0;
+	padding: 5% 0;
 	background-color:rgba(193,204,239,.8);
 	border-radius: 13px;
 	overflow: auto;
 }
-h1, h2{
+
+p, h2{
 	color: #082567;
 }
 h2, h2 a{
@@ -24,7 +25,7 @@ h2, h2 a{
     font-weight: bold;
 }
 h3, h3 a{
-	padding: 10px 0;
+	padding: 4% 5% 3%;
 	text-indent: 40px;
 	font-size: 1.3em;
 	color: #1f75fe;
@@ -35,7 +36,7 @@ h3:before{
 	height:18px;
 	content:"";
 	float:left;
-	margin:6px 6px 0 0;
+	margin: .6% .5% 0 0;
 	overflow:hidden;
 }
 h4{
@@ -64,7 +65,8 @@ p {
 	text-indent: 20px; /* Отступ первой строки в пикселах */
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1em;
-	padding: 5px 80px;
+	padding: .5% 1.5%;
+	color:#000;
 }
 #def001{
 	border: 2px dashed red;
@@ -122,9 +124,9 @@ figcaption {
 .theory{
 	border: 3px solid #1f75fe;
 	/*border-bottom: 10px solid #8533ff;*/
-	padding: 15px;
+	padding: 5%;
 	border-radius: 50px;
-	margin-top: 50px
+	
 }
 .tasks{
 	border: 3px solid #8533ff;
@@ -133,9 +135,12 @@ figcaption {
 	border-radius: 50px;
 	margin-top: 50px;	
 }
+.theory, .tasks {
+	margin: 5%
+}
 
 .breadcrumbs {
-	margin:15px 0;
+	margin:1% 2%;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	color:rgb(47, 79, 79);
@@ -153,7 +158,7 @@ figcaption {
 	padding: 0 0;
 }
 h1:nth-child(1){
-	margin: 41px 0;
+	margin: 2% 3%;
 }
 
 .toc h2{
