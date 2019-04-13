@@ -10,7 +10,7 @@ body{
 }
 .content{
 	display: block;
-	padding: 50px;
+	padding: 50px 0;
 	background-color:rgba(193,204,239,.8);
 	border-radius: 13px;
 	overflow: auto;
