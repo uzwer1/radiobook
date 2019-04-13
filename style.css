@@ -89,8 +89,10 @@ p {
 figure{
 	font-size: 1em
 }
-img{
+figure img{
 	margin: 3% auto;
+}
+img{
 	display: block;
 	border-radius: 10px;
 }
