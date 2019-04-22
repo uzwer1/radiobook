@@ -3,13 +3,17 @@
 	margin: 0
 }
 html{
+	height:100%; 
 	-webkit-text-size-adjust: 100%;
-	text-size-adjust:100%
+	text-size-adjust:100%;
+	background: linear-gradient(0deg, #10171F, rgba(0, 0, 0, 0.1)), url("img/maxresdef.jpg") no-repeat fixed;
 }
 body{
+	/*background: linear-gradient(0deg, #10171F, rgba(0, 0, 0, 0.1));*/
+	height:100%; 
 	width: 95%;
 	margin: 10% auto;
-	background: url('img/maxresdef.jpg') repeat-y fixed;
+	/*background: url('img/maxresdef.jpg') repeat-y fixed;*/
 	font-family: 'Verdana';
 }
 .content{
@@ -95,6 +99,7 @@ figure{
 }
 figure img{
 	margin: 3% auto;
+	width: 75%;
 }
 img{
 	display: block;
@@ -140,26 +145,32 @@ figcaption {
 	border-radius: 50px;
 	margin-top: 5%;	
 }
-.breadcrumbs, .theory, .tasks {
+.breadcrumb, .theory, .tasks {
 	margin: 5%;
 	padding: 5%;
 }
 
-.breadcrumbs {
+.breadcrumb {
 	/*margin:1% 2%;*/
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	font-weight: bold;
-	color:rgb(47, 79, 79);
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-size: 1.2em;*/
+	/*font-weight: bold;*/
+	/*color:rgb(47, 79, 79);*/
 	background: rgba(0, 128, 128,.5);
 	padding:10px 8px;
-	border-radius: 5px
+	/*border-radius: 5px*/
 }
-.breadcrumbs a:hover{
+/*.breadcrumb a:hover{
 	color:#F08080;
 }
-.breadcrumbs a:visited{
+.breadcrumb a:visited{
 	color:rgb(47, 79, 79);
+}*/
+.numsrc{
+	font-family: Verdana; 
+	font-size: .9em; 
+	font-weight: bolder; 
+	text-align: right;
 }
 .toc{
 	padding: 0 0;
